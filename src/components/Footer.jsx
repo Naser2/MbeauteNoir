@@ -119,11 +119,11 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-2 px-6 lg:px-8 ">
           <Navigation />
         </div>
-        <div className="mb-[0] mt-14 flex-wrap items-end justify-between gap-x-6 gap-y-4 pt-0 border-t border-neutral-950/10 pt-12 bg-[#faebd7]">
+        <div className="lg:!hidden mb-[0] mt-14 flex-wrap items-end justify-between gap-x-6 gap-y-4 pt-0 border-t border-neutral-950/10 pt-12 bg-[#faebd7]">
           {/* <Link href="/" aria-label="Home">
             <Logo className="h-8" fillOnHover />
           </Link> */}
-     <div className="lg:!hidden px-6 justify-center !pt-8 lg:px-8 bg-[black] lg:!bg-white !h-[8em] py-[5%] pt-[10%] max-[700px]:pt-[3%]  max-[700px]:py-[2%]   md:!px-[10%] lg:!px-[22%] xl:!px-[20%]"  style={{position: 'relative' , display: 'block' ,'pointer-events': 'auto', 'z-index': 9, visibility: 'visible', perspective: '601px'}}>
+     <div className=" px-6 justify-center !pt-8 lg:px-8 bg-[black] lg:!bg-white !h-[8em] py-[5%] pt-[10%] max-[700px]:pt-[3%]  max-[700px]:py-[2%]   md:!px-[10%] lg:!px-[22%] xl:!px-[20%]"  style={{position: 'relative' , display: 'block' ,'pointer-events': 'auto', 'z-index': 9, visibility: 'visible', perspective: '601px'}}>
      <h2 className='inline-flex text-white lg:text-black  text-center  !w-[100%]  !text-[2.04em]  lg:text-black md:!text-[4em] md:text-center  lg:text-[9em] xl:!text-[6em] xl:!py-14 max-w-3xl !font-bold signature-font  animated-logo'
      >
        ✨ MBEAUTé NOIR ✨</h2>
